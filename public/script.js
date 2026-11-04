@@ -1,4 +1,5 @@
 const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<button onclick="makePic()">Show Picture</button>);
 
 function makePic() {
    const srcUrl = "flower.jpg";
